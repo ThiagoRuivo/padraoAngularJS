@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html ng-app="meuApp">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--  CSS próprio::
+    ======================================================== -->
+    
+    <!-- Fonts Google 
+    ======================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+    <!-- JavaScript próprio:: 
+    ======================================================== -->
+    
+    <!-- Pasta Style - bibliotecas de CSS 
+    ======================================================== -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" text="text/css" media="all">
+    
+    <!-- Pasta Lib - bibliotecas de JavaScript 
+    incluir demais arquivos disponíveis conforme necessário
+    ======================================================== -->
+    <script type="text/javascript" src="node_modules/angular/angular.js"></script>
+    
+    <!-- Infra 
+    ======================================================== -->
+    
+    <!-- Modules 
+    ======================================================== -->
+    <script type="text/javascript" src="app/modules/myApp.js"></script>
+    
+    <!-- Controllers 
+    ======================================================== -->
+    <script type="text/javascript" src="app/controllers/meuController.js"></script>
+    
+    <!-- Routes 
+    ======================================================== -->
+    
+    <!-- Services 
+    ======================================================== -->
+    <script type="text/javascript" src="app/services/meuService.js"></script>
+    <script type="text/javascript" src="app/services/teste.js"></script>
+    
+    <!-- Views 
+    ======================================================== -->
+    
+    <!-- Config 
+    ======================================================== -->
+    
+    
+    </head>
+    <body ng-controller="meuController">
+      
+      <!-- Seção: Cabeçalho -->
+      <header></header>
+      <!-- Seção: Cabeçalho -->
+      
+      <!-- Seção: Barra de Navegação -->
+      <nav></nav>
+      <!-- Seção: Barra de Navegação -->
+      
+      <!-- Seção: Principal -->
+      <main>
+        
+        <!-- Seção: Nome -->
+        <section>
+          <h1>Thiago</h1>
+          <button class="btn btn-primary" ng-bind="app" ng-click="exibirMensagem()"></button>
+        </section>
+        <!-- Seção: Nome -->
+        
+        
+        <!-- Seção: Nome -->
+        <section></section>
+        <!-- Seção: Nome -->
+        
+      </main>
+      <!-- Seção: Principal -->
+      
+      <!-- Seção: Rodapé -->
+      <footer></footer>
+      <!-- Seção: Rodapé -->
+      
+      
+    </body>
+</html>
